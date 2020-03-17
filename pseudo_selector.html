@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pseudo Selector</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		a{
+			font-size: 20px;
+		}
+		a:hover{
+			color: red;
+		}
+		a:visited{
+			color: yellow;
+		}
+		a:active{
+			color: green;
+		}
+
+		input[name="name"]:focus{
+			background-color: grey;		
+		}
+		li:first-child {
+			color: red;
+		}
+		li:last-child{
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<a href="https://www.google.com">Google</a>
+	<input type="text" name="name">
+	<ul>
+		<li>Apple</li>
+		<li>Dell</li>
+		<li>Acer</li>
+	</ul>
+</body>
+</html>
